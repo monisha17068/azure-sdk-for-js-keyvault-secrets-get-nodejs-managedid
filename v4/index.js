@@ -1,8 +1,8 @@
 const express = require('express');
 const { SecretClient } = require('@azure/keyvault-secrets');
 const { DefaultAzureCredential } = require('@azure/identity');
-const KEY_VAULT_URL = null || process.env['KEY_VAULT_URL'];
-const SECRET_NAME = null || process.env['SECRET_NAME'];
+const KEY_VAULT_URL = null || process.env['@Microsoft.KeyVault(SecretUri=https://mykeyvault-secret.vault.azure.net/secrets/MySecret/f84a29812c3d4f0580827e")bf08acb0da/'];
+const SECRET_NAME = null || process.env['MySecret'];
 
 let app = express();
 
